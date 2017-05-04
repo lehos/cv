@@ -1,0 +1,54 @@
+- date: Jun 2016 - now
+  name: Freelance
+  desc: Working on secret Angular 2 application
+
+- date: Nov 2015 - Feb 2016
+  name: <a href="http://badoo.com">Badoo.com</a>
+  post: HTML developer
+  desc: Maintained Badoo.com web-version.<br>
+        Technologies used&#58; HTML, CSS, JS, PHP, Sketch.
+
+- date: Aug 2015 - Oct 2015
+  name: <a href="http://delivia.ru">Delivia.ru</a>, logistics start-up
+  post: Frontend developer
+  desc: Maintained and developed SPA-application, prototyping, UI/UX design<br>
+        Technologies&#58; AngularJS, ES6, Gulp, Bootstrap, Less, PostCSS, Lodash, d3.js. <br>
+        Plug-in for PostCSS
+
+- date: Oct 2014 - May 2015
+  name: Web studio creative-craft.ru
+  post: Frontend developer
+  desc: Server administration <br>
+        Created sites using Ruby on Rails<br>
+
+- date: Nov 2013 - Sep 2014
+  name: VRM Technology
+  post: Mobile JS developer
+  desc: Developed mobile app using web technologies.<br>
+        Technologies&#58; Phonegap, AngularJS, CoffeeScript, Karma, LESS
+
+- date: Apr 2012 - Oct 2013
+  name: <a href="http://yopolis.ru">yopolis.ru</a>
+  post: Frontend developer
+  desc: Developed frontend on big Yii-project. <br>
+        Technologies&#58; HTML, SCSS, JQuery, Backbone, PHP (Yii)
+
+- date: Feb 2011 - Mar 2012
+  name: Vinteresah.ru (navidoo.ru)
+  post: Frontend developer
+  desc: HTML, JS, integrating with PHP serverside.
+
+- date: Jan 2010 - Dec 2010
+  desc: >
+        Creating sites on 1t.cms, django.cms, drupal, wordpress. <br>
+        Front-end in django-powered sites <a href='http://sgtour.ru'>sgtour.ru</a> and <a href='http://555auto.ru'>555auto.ru</a>
+  name: Freelance
+  post: Web developer
+
+- date: Jun 2007 - Nov 2009
+  name: Web studio tercio.ru (1t.ru)
+  post: Frontend developer
+  desc: Developed sites on 1t.cms <br>
+        Developed 1t.cms (frontend and ideas) <br>
+        Managed fronend department <br>
+

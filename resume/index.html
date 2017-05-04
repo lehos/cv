@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<aside class="resume-aside">
+    <img src="assets/face.jpg" alt="" width="200" />
+</aside>
+
+<section class="resume-contacts">
+    <h1 class="resume-header">
+        Стратан Алексей, веб-разработчик
+    </h1>
+
+    <div class="resume-contacts">
+        <h3>Контакты</h3>
+
+        <span class="resume-contacts__label">email:</span>
+        <a href="mailto:alexey.stratan@gmail.com">alexey.stratan@gmail.com</a> <br>
+
+        <span class="resume-contacts__label">skype:</span>
+        <a href="skype:alexey-stratan?chat">alexey-stratan</a> <br>
+
+        <span class="resume-contacts__label">github:</span>
+        <a href="http://github.com/lehos">lehos</a> <br>
+
+        <span class="resume-contacts__label">vk:</span>
+        <a href="http://vk.com/true_lehos">true_lehos</a> <br>
+
+        <span class="resume-contacts__label">fb:</span>
+        <a href="https://www.facebook.com/true.lehos">true.lehos</a>
+    </div>
+</section>
+
+<section class="resume-main">
+    <h2>О себе:</h2>
+    <p>
+        Фронтенд-разработчик, верстальщик, JS-программист с многолетним опытом работы. <br>
+        Коммуникабельный, ответственный. <br>
+        Слежу за тенденциями и актуальными технологиями в мире веб-разработки. <br>
+        Стремлюсь участвовать в полезных и красивых проектах и работать с профессионалами. <br>
+        Люблю хороший код и интересные задачи.
+    </p>
+    <br>
+
+    <h2>Навыки и умения:</h2>
+    <p>
+        Все, что связано с фронтендом - начиная с верстки макета и до интеграции с движком.
+    </p>
+    <p>
+        HTML, CSS (SCSS), JS. <br>
+        Pixel-perfect, параллаксы, адаптивность, кроссбраузерность и проч. <br>
+        SPA, разработка под мобильные платформы (PhoneGap) <br>
+        HAML, Django templates (twig), Smarty, Velocity. <br>
+        jQuery, Backbone, AngularJS, CoffeeScript, Gulp. YandexMaps API. <br>
+        Git, SVN. TDD, BDD. <br>
+        На достаточном уровне умею Ruby on Rails, Django, Yii. <br>
+        Хорошо знаком с юниксами, работаю на маке. <br>
+        Английский на уровне upper-intermediate. <br>
+    </p>
+    <br>
+
+    <h2>Резюме:</h2>
+
+    {% for job in site.data.resume %}
+        <div class="resume-item">
+            <div class="resume-item__date">{{ job.date }}</div>
+            <div class="resume-item__company">{{ job.name }}</div>
+            <div class="resume-item__post">{{ job.post }}</div>
+            <div class="resume-item__desc">{{ job.desc }}</div>
+        </div>
+    {% endfor %}
+</section>

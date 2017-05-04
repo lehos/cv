@@ -1,0 +1,39 @@
+
+.cv-contacts {
+	&__label {
+		color: #666;
+		display: inline-block;
+		width: 50px;
+	}
+}
+.cv-aside {
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+	height: 220px;
+	margin-right: 20px;
+}
+
+.cv-main {
+	margin: 3em 0 0 0;
+}
+
+.cv-contacts {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.cv-item {
+	margin-bottom: 1.9em;
+
+	&__date {
+		color: #666;
+	}
+	&__company {
+		font-weight: bold;
+		font-size: 14px;
+	}
+	&__post {
+		margin-bottom: 5px;
+	}
+}
