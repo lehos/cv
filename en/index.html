@@ -4,45 +4,44 @@ layout: default
 
 <div class="cv-wrap">
     <header class="cv-header">
-        <h1>Алексей Стратан, фронтенд-разработчик </h1>
-
+        <h1>Alexey Stratan, frontend-developer</h1>
         <div class="cv-langs">
-            <span>ru</span>
+            <a href="/cv/">ru</a>
             |
-            <a href="en/">en</a>
+            <span>en</span>
         </div>
     </header>
+
     <section class="cv-main">
-        <h2>О себе</h2>
+        <h2>About</h2>
         <p>
-            Фронтенд-разработчик, JS-программист, верстальщик с многолетним опытом работы.
-            Коммуникабельный, ответственный.
-            Слежу за тенденциями и актуальными технологиями в мире веб-разработки.
-            Стремлюсь участвовать в полезных и красивых проектах и работать с профессионалами.
-            Люблю хороший код, интересные задачи и продуманные интерфейсы.
+            10-years experienced frontend developer and JS programmer.
+            Communicable, responsible.
+            My goal is to participate in useful and beautiful projects with professionals.
+            I love clear code, interesting tasks and clever interfaces.
         </p>
 
-        <h2>Навыки и умения</h2>
+        <h2>Skills</h2>
         <ul>
             <li>Full-stack frontend</li>
             <li>JS (TypeScript, ES6), HTML, CSS (Sass, Less, PostCSS)</li>
             <li>Angular (+ ngrx), RxJs, Vue.js, AngularJS, jQuery, Backbone.js</li>
             <li>RIA, SPA. NativeScript, PhoneGap, Cordova</li>
-            <li>Git, SVN. TDD, BDD</li>
             <li>Webpack, Gulp, Grunt</li>
-            <li>Pixel-perfect, параллаксы, адаптивность, кроссбраузерность и т.п.</li>
+            <li>Git, SVN. TDD, BDD</li>
+            <li>Pixel-perfect, parallaxes, adaptive, cross-browser etc</li>
             <li>Photoshop, Sketch, Zeplin, Avocado</li>
             <li>Scrum, Jira, Redmine</li>
             <li>YandexMaps API, GoogleMaps API, d3.js</li>
             <li>Node.js, Ruby (RoR), Python (Django, Tornado), PHP (Yii, Wordpress)</li>
-            <li>Хорошо знаком с юниксами, работаю на маке</li>
-            <li>Английский на уровне advanced</li>
+            <li>Familiar with UNIX, working on Mac</li>
+            <li>Advanced english</li>
         </ul>
     </section>
 
     <aside class="cv-aside">
         <div class="cv-face">
-            <img src="assets/face.jpg" alt="" width="230"/>
+            <img src="../assets/face.jpg" alt="" width="230"/>
         </div>
 
         <ul class="cv-contacts">
@@ -73,9 +72,9 @@ layout: default
     </aside>
 
     <section class="cv-jobs">
-        <h2>Опыт работы</h2>
+        <h2>Work experience</h2>
 
-        {% for job in site.data.jobs %}
+        {% for job in site.data.jobs_en %}
         <div class="cv-item">
             <div class="cv-item__date">{{ job.date }}</div>
             <div class="cv-item__company">{{ job.name }}</div>
@@ -88,7 +87,7 @@ layout: default
                 </ul>
             </div>
             {% if job.tech %}
-            <div class="cv-item__tech-stack">{{ job.tech }}</div>
+            <div class="cv-item__tech">{{ job.tech }}</div>
             {% endif %}
         </div>
         {% endfor %}

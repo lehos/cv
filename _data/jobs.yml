@@ -1,60 +1,96 @@
-- date: Ноябрь 2015 - Февраль 2016
-  name: <a href="http://badoo.com">Badoo.com</a>
-  post: HTML developer
-  desc: Верстка, много верстки
+- date: Апрель 2016 - настоящее время
+  name: <a href="http://tillhub.de">Tillhub GmbH</a>
+  post: JS developer
+  desc:
+    - Немецкая компания, удаленная работа, всё общение на английском языке
+    - Разработка веб-приложения на Angular с поддержкой оффлайн-режима
+    - >
+      Сделал <a href="https://dashboard.tillhub.de/invoice/index-en.html">редактор шаблонов</a> документов
+      (в том числе дизайн, архитектуру, идеи функционала)
+    - >
+      Сделал REST API на Node.js (схема в Swagger, архитектура, авторизация, БД, тесты)
+    - Сделал на Angular экспортер данных из стандартных форматов (.cvs, .xls) во внутренний формат
+    - Поддержка сайта tillhub.de (Wordpress)
+  tech: >
+    Git, TypeScript, Angular, RxJs, ngrx, Sass, IndexedDB, Service workers, Webpack, Gulp, jQuery, PapaParse, Sketch,
+    Node.js, Express, Knex, Swagger, Mocha, Postgres, Wordpress + PHP
 
-- date: Август 2015 - Ноябрь 2015
+- date: Ноябрь 2015 - Февраль 2016
+  name: <a href="http://badoo.com">Badoo</a>
+  post: HTML developer
+  desc:
+    - Поддержка сайтов badoo.com и corp.badoo.com в плане верстки
+    - Получил опыт работы в большой, хорошо организованной и устоявшейся компании
+  tech: Git, HTML, CSS, JS, PHP, SVG, Sketch
+
+- date: Июнь 2015 - Ноябрь 2015
   name: <a href="http://delivia.ru">Delivia.ru</a>, стартап в сфере логистики
   post: Разработчик интерфейсов
-  desc: Поддержка и развитие SPA-приложения.<br>
-        Стэк технологий – Angular, ES6, Gulp, Bootstrap, Less, Lodash, d3.js. <br>
-        Проектирование интерфейсов, создание макетов и прототипов
+  desc:
+    - Разрабатывал и развивал SPA-приложение
+    - Проектировал интерфейсы, создавал макеты и прототипы
+    - Сделал <a href="https://widgets.delivia.ru/pickup/">виджет</a> для встраивания на другие сайты
+  tech: Git, AngularJS, ES6 + Babel, Gulp, Bootstrap, Less, Lodash, d3.js, YandexMaps, JQuery
 
-- date: Октябрь 2014 - май 2015
-  name: Веб-студия <a href="http://creative-craft.ru">creative-craft.ru</a>
+- date: Октябрь 2014 - Май 2015
+  name: Веб-студия CreativeCraft
   post: Веб-технолог
-  desc: Администрирование и настройка сервера, <br>
-        Создание лендингов и сайтов. <br>
-        Использовал БЭМ
+  desc:
+    - Делал презентационные лендинги
+    - Делал интернет-магазины на OpenCart
+    - Администрировал linux-сервер
+  tech: Git, Sass, JQuery, БЭМ, Ruby On Rails, PHP
 
-- date: Ноябрь 2013 - апрель 2014
+- date: Ноябрь 2013 - сентябрь 2014
   name: VRM Technology
-  post: JavaScript-программист
-  desc: Участвовал в разработке мобильного приложения на веб-технологиях. <br>
-        Использовались Phonegap, AngularJS, CofeeScript, Karma, LESS.
-        Освоил на практике TDD
+  post: JS developer
+  desc:
+    - Ирландская компания, общение частично на английском языке
+    - Разрабатывал мобильное приложение на веб-технологиях
+    - Разработка велась по методологии TDD
+  tech: Git, AngularJS, PhoneGap, CofeeScript, Karma, LESS, TDD
 
 - date: Апрель 2012 - Октябрь 2013
   name: Связной Ц.Р., проект <a href="http://yopolis.ru">yopolis.ru</a>
   post: Веб-технолог
-  desc: Разрабатывал фронтенд большого Yii-проекта. <br>
-        Узнал, что такое правильно поставленный рабочий процесс, получил опыт работы в большой команде профессионалов. <br>
+  desc:
+    - Разрабатывал фронтенд большого проекта
+    - Узнал, что такое правильно поставленный рабочий процесс
+    - Получил опыт работы в большой команде профессионалов
+  tech: Git, Sass, JS, JQuery, Backbone.js, Yii, PHP
 
 - date: Февраль 2011 - Март 2012
-  name: Соцсеть vinteresah.ru (navidoo.ru)
+  name: Соцсеть vinteresah.ru
   post: HTML-верстальщик
-  desc: Верстка, JS, интеграция верстки с бэкендом на LiveStreet.
+  desc: Верстка, JS, интеграция верстки с бэкендом
+  tech: SVN, Git, HTML, CSS, JS, jQuery, PHP, LiveStreet, Smarty
 
 - date: Январь 2010 - декабрь 2010
-  desc: >
-        Верстка и сборка сайтов на 1t.cms, django.cms, drupal, wordpress. <br>
-        Фронтенд в django-powered сайтах <a href='http://sgtour.ru'>sgtour.ru</a> и <a href='http://555auto.ru'>555auto.ru</a>
   name: Фриланс
   post: Веб-разработчик
+  desc:
+    - Верстка и сборка сайтов на разных CMS
+    - Фронтенд в django-сайтах <a href='http://sgtour.ru'>sgtour.ru</a> и 555auto.ru
+  tech: SVN, Git,  HTML, CSS, JS, JQuery, python + Django, PHP, Wordpress, Drupal, 1t.cms
 
-- date: Июнь 2007 - Ноябрь 2009
+- date: Июнь 2007 - Декабрь 2009
   name: Веб-студия tercio.ru (1t.ru)
   post: HTML-верстальщик
-  desc: Сделал множество сайтов (верстка + интеграция с cms). <br>
-        Активно участвовал в разработке студийной cms (фронтенд + идеи) <br>
-        Руководил отделом верстки <br>
-        Научился работать в режиме многозадачности
+  desc:
+    - Сделал множество сайтов (верстка + интеграция с cms)
+    - Активно участвовал в разработке студийной cms (идеи + фронтенд)
+    - Руководил небольшим отделом верстки
+    - Успешно работал в режиме сильной многозадачности
+  tech: SVN, HTML, CSS, JQuery, 1t.cms, .NET
 
 - date: Июль 2006 - Май 2007
   name: Рекламное агентство "Реклама успеха"
-  post: Сисадмин, разработчик сайтов
-  desc: Администрировал локальную сеть, написал на Access CRM-приложение, сделал несколько сайтов (на джумле)
+  post: Сисадмин, веб-разработчик
+  desc:
+    - Администрировал локальную сеть
+    - Написал на MS Access CRM-приложение
+    - Cделал несколько сайтов на джумле
 
-- date: Сентябрь 2005 - Январь 2007
+- date: Сентябрь 2005 - Декабрь 2006
   name: МГТУ им. Баумана, факультет Энергомаш, кафедра Экологии (Э-9)
   post: студент
