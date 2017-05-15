@@ -45,7 +45,7 @@
   name: <a href="http://www.vrmtech.co.uk/">VRM Technology</a>
   post: JS developer
   desc:
-    - Irish company, communication was partlu in english
+    - Irish company, communication was partly in english
     - Developed mobile app using web technologies
     - Development process was based on TDD methodology
   tech: Git, AngularJS, PhoneGap, CofeeScript, Karma, LESS, TDD
