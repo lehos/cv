@@ -1,15 +1,15 @@
-- date: Апрель 2016 - настоящее время
+- date: Апрель 2016 - Май 2017
   name: <a href="http://tillhub.de">Tillhub GmbH</a>
   post: JS developer
   desc:
-    - Немецкая компания, удаленная работа, всё общение на английском языке
+    - Немецкая компания, удаленная работа, общение практически полностью на английском языке
     - Разработка веб-приложения на Angular с поддержкой оффлайн-режима
     - >
       Сделал <a href="https://dashboard.tillhub.de/invoice/index-en.html">редактор шаблонов</a> документов
       (в том числе дизайн, архитектуру, идеи функционала)
     - >
       Сделал REST API на Node.js (схема в Swagger, архитектура, авторизация, БД, тесты)
-    - Сделал на Angular экспортер данных из стандартных форматов (.cvs, .xls) во внутренний формат
+    - Сделал на Angular приложение для экспорта данных из стандартных форматов (.cvs, .xls) во внутренний формат
     - Поддержка сайта tillhub.de (Wordpress)
   tech: >
     Git, TypeScript, Angular, RxJs, ngrx, Sass, IndexedDB, Service workers, Webpack, Gulp, jQuery, PapaParse, Sketch,

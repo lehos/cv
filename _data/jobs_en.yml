@@ -1,15 +1,15 @@
-- date: Apr 2016 - now
+- date: Apr 2016 - May 2017
   name: <a href="http://tillhub.de">Tillhub GmbH</a>
   post: JS developer
   desc:
-    - German company, remote work, all communication in english
+    - German company, remote work, almost all communication in english
     - Developing web app on Angular with offline mode
     - >
       Made <a href="https://dashboard.tillhub.de/invoice/index-en.html">template editor</a> for invoices
       (including design, architecture and ideas for functionality)
     - >
       Made REST API on Node.js (scheme in Swagger, architecture, auth, DB, tests)
-    - Made on Angular data exporter from stansart formats to (.cvs, .xls) to inner data structures
+    - Made on Angular app for export data from stansart formats to (.cvs, .xls) to inner data structures
     - Maintained tillhub.de website (Wordpress)
   tech: >
     Git, TypeScript, Angular, RxJs, ngrx, Sass, IndexedDB, Service workers, Webpack, Gulp, jQuery, PapaParse, Sketch,
