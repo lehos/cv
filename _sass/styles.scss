@@ -30,6 +30,9 @@ $on-laptop: 800px;
 	}
 }
 
+html {
+	-webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
 
 body {
 	font: normal #{$base-font-size}/#{$base-line-height} $base-font-family;
@@ -78,6 +81,7 @@ h1, h2, h3 {
 	float: right;
 	text-align: right;
 	line-height: 35px;
+	margin-left: 20px;
 }
 
 

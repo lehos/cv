@@ -17,6 +17,7 @@ title: Стратан Алексей, резюме
 baseurl: "/cv" # the subpath of your site, e.g. /blog
 url: "https://lehos.github.io/cv" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: lehos
+host: 0.0.0.0
 google_analytics: UA-98818015-1
 # Build settings
 markdown: kramdown
