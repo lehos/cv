@@ -1,3 +1,16 @@
+Made on [Jekyll](https://jekyllrb.com/)
+
+### Installation
+
+```bash
+gem install jekyll bundler
+```
+
+### Run
+```bash
+bundle exec jekyll serve
+```
+
 ### Sass
 
 Refers to `.scss` files within the `_sass` directory that define the theme's styles.
