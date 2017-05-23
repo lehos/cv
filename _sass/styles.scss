@@ -34,7 +34,6 @@ $on-laptop: 800px;
 body {
 	font: normal #{$base-font-size}/#{$base-line-height} $base-font-family;
 	color: $text-color;
-	background-color: $background-color;
 	margin: 0;
 }
 
@@ -61,8 +60,9 @@ h1, h2, h3 {
 }
 
 .layouter {
-	width: $on-laptop;
+	max-width: $on-laptop;
 	margin: auto;
+	padding: 0 20px;
 }
 
 .cv-header {
@@ -85,28 +85,29 @@ h1, h2, h3 {
 	margin-top: 20px;
 }
 
-.cv-contacts {
-	&__label {
-		color: #666;
-		display: inline-block;
-		width: 50px;
-	}
-}
+
 .cv-aside {
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 20px;
 	width: 230px;
 	float: right;
 }
 .cv-face {
 	margin-bottom: 8px;
 }
+.cv-contacts {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+	&__label {
+		color: #666;
+		display: inline-block;
+		width: 50px;
+	}
+}
+
 
 .cv-main {
-	display: inline-block;
-	vertical-align: top;
-	width: 540px;
+	padding-right: 250px;
 
 	h2:first-child {
 		margin-top: 0;
@@ -114,10 +115,26 @@ h1, h2, h3 {
 }
 
 
-.cv-contacts {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+@include media-query($on-laptop) {
+	.cv-aside {
+		float: none;
+		width: auto;
+		margin-bottom: 20px;
+	}
+	.cv-face {
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 20px;
+		height: 230px;
+		overflow: hidden;
+	}
+	.cv-contacts {
+		display: inline-block;
+		vertical-align: top;
+	}
+	.cv-main {
+		padding-right: 0;
+	}
 }
 
 .cv-item {
@@ -145,4 +162,32 @@ h1, h2, h3 {
 
 .site-footer {
 	margin-bottom: 20px;
+}
+
+@media print {
+	body {
+		font-size: 11px;
+	}
+	h1 {
+		font-size: 18px;
+	}
+	h2 {
+		font-size: 16px;
+	}
+	h3 {
+		font-size: 14px;
+	}
+	.site-footer,
+	.cv-langs {
+		display: none;
+	}
+
+	.layouter {
+		max-width: inherit;
+		padding: 0;
+	}
+
+	.cv-wrap {
+		margin: 0;
+	}
 }
