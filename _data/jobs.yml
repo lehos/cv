@@ -2,7 +2,8 @@
   name: <a href="http://dca.ru">DCA (Data-Centric Alliance)</a>
   post: Senior Frontend Developer
   desc:
-    - Поддержка проекта (админка для ведения рекламных кампаний) c легаси кодом на Backbone.js + jQuery
+    - Компания про бигдату, rtb и social рекламу
+    - Поддержка проекта (админки для ведения рекламных кампаний) c легаси кодом на Backbone.js + jQuery
     - Постепенный реинжинирг отдельных частей проекта на Vue.js + TypeScript
   tech: >
     Vue.js + Vuex, TypeScript, Backbone.js, JQuery, React + Redux + MobX, Charts.js, Webpack, Gulp
