@@ -1,35 +1,44 @@
+- date: Май 2016 - настоящее время
+  name: <a href="http://dca.ru">DCA (Data-Centric Alliance)</a>
+  post: Senior Frontend Developer
+  desc:
+    - Поддержка проекта (админка для ведения рекламных кампаний) c легаси кодом на Backbone.js + jQuery
+    - Постепенный реинжинирг отдельных частей проекта на Vue.js + TypeScript
+  tech: >
+    Vue.js + Vuex, TypeScript, Backbone.js, JQuery, React + Redux + MobX, Charts.js, Webpack, Gulp
+
 - date: Апрель 2016 - Май 2017
   name: <a href="http://tillhub.de">Tillhub GmbH</a>
   post: JS developer
   desc:
     - Немецкая компания, удаленная работа, общение практически полностью на английском языке
-    - Разработка веб-приложения на Angular с поддержкой оффлайн-режима
+    - Разработка веб-приложения на Angular 2+ с поддержкой оффлайн-режима
     - >
       Сделал <a href="https://dashboard.tillhub.de/invoice/index-en.html">редактор шаблонов</a> документов
       (в том числе дизайн, архитектуру, идеи функционала)
     - >
       Сделал REST API на Node.js (схема в Swagger, архитектура, авторизация, БД, тесты)
-    - Сделал на Angular приложение для экспорта данных из стандартных форматов (.cvs, .xls) во внутренний формат
+    - Сделал на Angular 2 приложение для экспорта данных из стандартных форматов (.cvs, .xls) во внутренний формат
     - Поддержка сайта tillhub.de (Wordpress)
   tech: >
-    Git, TypeScript, Angular, RxJs, ngrx, Sass, IndexedDB, Service workers, Webpack, Gulp, jQuery, PapaParse, Sketch,
+    TypeScript, Angular, RxJs, ngrx, Sass, IndexedDB, Service Workers, Webpack, Gulp, jQuery, PapaParse, Sketch,
     Node.js, Express, Knex, Swagger, Mocha, Postgres, Wordpress + PHP
 
-- date: Ноябрь 2015 - Февраль 2016
+- date: Декабрь 2015 - Февраль 2016
   name: <a href="http://badoo.com">Badoo</a>
   post: HTML developer
   desc:
     - Поддержка сайтов badoo.com и corp.badoo.com в плане верстки
     - Получил опыт работы в большой, хорошо организованной и устоявшейся компании
-  tech: Git, HTML, CSS, JS, PHP, SVG, Sketch
+  tech: HTML, CSS, JS, PHP, SVG, Sketch
 
 - date: Июнь 2015 - Ноябрь 2015
-  name: <a href="http://delivia.ru">Delivia.ru</a>, стартап в сфере логистики
+  name: Delivia.ru, стартап в сфере логистики
   post: Разработчик интерфейсов
   desc:
-    - Разрабатывал и развивал SPA-приложение
+    - Поддерживал и развивал SPA-приложение
     - Проектировал интерфейсы, создавал макеты и прототипы
-    - Сделал <a href="https://widgets.delivia.ru/pickup/">виджет</a> для встраивания на другие сайты
+    - Сделал виджет для встраивания на другие сайты
   tech: Git, AngularJS, ES6 + Babel, Gulp, Bootstrap, Less, Lodash, d3.js, YandexMaps, JQuery
 
 - date: Октябрь 2014 - Май 2015
@@ -51,12 +60,9 @@
   tech: Git, AngularJS, PhoneGap, CofeeScript, Karma, LESS, TDD
 
 - date: Апрель 2012 - Октябрь 2013
-  name: Связной Ц.Р., проект <a href="http://yopolis.ru">yopolis.ru</a>
+  name: Связной Ц.Р., проект yopolis.ru
   post: Веб-технолог
-  desc:
-    - Разрабатывал фронтенд большого проекта
-    - Узнал, что такое правильно поставленный рабочий процесс
-    - Получил опыт работы в большой команде профессионалов
+  desc: Разрабатывал фронтенд в большом проекте и в большой команде
   tech: Git, Sass, JS, JQuery, Backbone.js, Yii, PHP
 
 - date: Февраль 2011 - Март 2012
