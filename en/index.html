@@ -13,44 +13,14 @@ title: CV Stratan Alexey
         </div>
     </header>
 
-    <aside class="cv-aside">
-        <div class="cv-face">
-            <img src="../assets/face.jpg" alt="" width="230"/>
-        </div>
-
-        <ul class="cv-contacts">
-            <li>
-                <span class="cv-contacts__label">email:</span>
-                <a href="mailto:alexey.stratan@gmail.com">alexey.stratan@gmail.com</a>
-            </li>
-
-            <li>
-                <span class="cv-contacts__label">skype:</span>
-                <a href="skype:alexey-stratan?chat">alexey-stratan</a>
-            </li>
-
-            <li>
-                <span class="cv-contacts__label">github:</span>
-                <a href="http://github.com/lehos">lehos</a>
-            </li>
-            <li>
-                <span class="cv-contacts__label">&nbsp;</span>
-                <a href="https://www.linkedin.com/in/aleksei-stratan-46190674/">linkedin</a>
-            </li>
-            <li>
-                <span class="cv-contacts__label">socials:</span>
-                <a href="http://vk.com/fake_lehos">vk</a>
-                <a href="https://www.facebook.com/true.lehos">fb</a>
-            </li>
-        </ul>
-    </aside>
+    {% include contacts.html %}
 
     <section class="cv-main">
         <h2>About</h2>
         <p>
             Experienced frontend developer and JS programmer.
             Communicable, responsible.
-            My goal is to participate in useful and beautiful projects with professionals.
+            My goal is to make useful and beautiful projects in professional teams.
             I love clear code, interesting tasks and clever interfaces.
         </p>
 
@@ -77,21 +47,7 @@ title: CV Stratan Alexey
         <h2>Work experience</h2>
 
         {% for job in site.data.jobs_en %}
-        <div class="cv-item">
-            <div class="cv-item__date">{{ job.date }}</div>
-            <div class="cv-item__company">{{ job.name }}</div>
-            <div class="cv-item__post">{{ job.post }}</div>
-            <div class="cv-item__desc">
-                <ul>
-                    {% for desc in job.desc %}
-                    <li>{{ desc }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-            {% if job.tech %}
-            <div class="cv-item__tech">{{ job.tech }}</div>
-            {% endif %}
-        </div>
+            {% include jobs.html %}
         {% endfor %}
     </section>
 </div>
