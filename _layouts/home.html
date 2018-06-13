@@ -48,21 +48,7 @@ title: Стратан Алексей, резюме
         <h2>Опыт работы</h2>
 
         {% for job in site.data.jobs %}
-        <div class="cv-item">
-            <div class="cv-item__date">{{ job.date }}</div>
-            <div class="cv-item__company">{{ job.name }}</div>
-            <div class="cv-item__post">{{ job.post }}</div>
-            <div class="cv-item__desc">
-                <ul>
-                    {% for desc in job.desc %}
-                    <li>{{ desc }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-            {% if job.tech %}
-            <div class="cv-item__tech-stack">{{ job.tech }}</div>
-            {% endif %}
-        </div>
+            {% include jobs.html %}
         {% endfor %}
     </section>
 </div>
