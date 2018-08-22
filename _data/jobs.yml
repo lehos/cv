@@ -1,12 +1,23 @@
-- date: Июнь 2017 - настоящее время
-  name: <a href="http://dca.ru">DCA (Data-Centric Alliance)</a>
-  post: Senior Frontend Developer
+- date: Июль 2018 - настоящее время
+  name: PrivacyAudit.me, проект в инкубаторе Лоборатории Касперского
+  posе: Fullstack Developer
   desc:
-    - Компания про бигдату, rtb и social рекламу
-    - Поддержка проекта (админки для ведения рекламных кампаний) c легаси кодом на Backbone.js + jQuery
-    - Постепенный реинжинирг отдельных частей проекта на Vue.js + TypeScript
-  tech: >
-    Vue.js + Vuex, TypeScript, Backbone.js, JQuery, React + Redux + MobX, Charts.js, Webpack, Gulp
+    - Разработка SPA приложения на Vue.js + Typescript с нуля
+    - Разработка несложного API на Django + Django REST Framework
+  tech: Vue.js + TypeScript, Webpack, Python, Django, Docker
+
+- date: Июнь 2017 - Июнь 2018
+  name: DCA (Data-Centric Alliance), компания про бигдату и RTB рекламу
+  posе: Senior Front-end Developer
+  desc:
+  - >
+    Поддержка, развитие и оптимизация фронтенда в классическом многостраничном веб-приложении на Symfony
+    с большим кол-вом легаси на Twig, Backbone.js, jQuery, Bootstrap и тп
+  - >
+    Постепенное переписывание проекта на Vue.js + TypeScript.
+    Как в виде компонентов, встраиваемых в старый код, так и отдельных SPA
+  - Поддержка других проектов на React и React + Redux, эксперименты с React + MobX
+  tech: Vue.js + Vuex, TypeScript, Backbone.js, JQuery, React + Redux + MobX, Charts.js, Webpack, Gulp
 
 - date: Апрель 2016 - Май 2017
   name: <a href="http://tillhub.de">Tillhub GmbH</a>
