@@ -1,3 +1,30 @@
+- date: Sep 2018 - now
+  name: Kometrica (Megefon)
+  posе: Senio Frontend Developer
+  desc:
+    - Developing big complex SPA with SSR on React.js (Next.js)
+  tech: React.js, Next.js, TypeScript, Unstated, Styled Components (emotion), Zeplin, Prettier
+
+- date: Jul 2018 - Aug 2018
+  name: PrivacyAudit.me, Kaspersky Lab buisness incubator
+  posе: Fullstack Developer
+  desc:
+    - Developed SPA on Vue.js + TypeScript from scratch
+    - Developed API on Django + Django REST Framework
+  tech: Vue.js + TypeScript, Webpack, Python, Django, Docker
+
+- date: Jun 2017 - Jun 2018
+  name: DCA (Data-Centric Alliance)
+  posе: Senior Front-end Developer
+  desc:
+    - >
+      Maintained, frontend in classic multipage web-application with much legacy
+      on Twig, Backbone.js, jQuery, Bootstrap
+    - >
+      Progressively refactored frontend to SPA on Vue.js + TypeScript.
+    - Mantained some projets on React и React + Redux, experiments with React + MobX
+  tech: Vue.js + Vuex, TypeScript, Backbone.js, JQuery, React + Redux + MobX, Charts.js, Webpack, Gulp, Gitlab
+
 - date: Apr 2016 - May 2017
   name: <a href="http://tillhub.de">Tillhub GmbH</a>
   post: JS developer
