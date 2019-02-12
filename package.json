@@ -1,0 +1,22 @@
+{
+  "name": "cv-nuxt",
+  "version": "1.0.0",
+  "description": "CV Alexey Stratan",
+  "author": "Alexey Stratan <alexey.stratan@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "nuxt": "2.4.3",
+    "vue-i18n": "8.8.0"
+  },
+  "devDependencies": {
+    "json-loader": "0.5.7",
+    "yaml-loader": "0.5.0"
+  }
+}

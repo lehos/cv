@@ -1,0 +1,166 @@
+body {
+  font: normal 13px/1.5 "Lucida Grande", Helvetica, sans-serif;
+  color: #333;
+  margin: 0
+}
+
+h2 {
+  margin-top: 20px
+}
+
+a, a:visited {
+  color: #2a7ae2
+}
+
+a:hover {
+  color: blue
+}
+
+ul, ol {
+  padding: 0 0 0 25px;
+  margin: 0
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h1, h2, h3 {
+  line-height: 1.2em;
+  font-weight: normal;
+  margin: 20px 0 5px 0
+}
+
+.layout {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 20px
+}
+
+.cv-header {
+  margin-bottom: 20px
+}
+
+.cv-header h1 {
+  display: inline-block;
+  margin: 0;
+  font-size: 25px
+}
+
+nav {
+  float: right;
+  text-align: right;
+  line-height: 35px;
+  margin-left: 20px
+}
+
+  a.nuxt-link-active {
+    text-decoration: none;
+    color: #333;
+  }
+
+.cv-aside {
+  width: 230px;
+  float: right;
+  margin-left: 40px;
+}
+
+.cv-face {
+  margin-bottom: 8px
+}
+
+.cv-contacts {
+  margin: 0;
+  padding: 0;
+  list-style-type: none
+}
+
+.cv-contacts__label {
+  color: #666;
+  display: inline-block;
+  width: 50px
+}
+
+.cv-main {
+  padding-right: 250px
+}
+
+.cv-main h2:first-child {
+  margin-top: 0
+}
+
+@media screen and (max-width: 600px) {
+  .cv-aside {
+    float: none;
+    width: auto;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .cv-face {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 230px;
+    overflow: hidden
+  }
+
+  .cv-contacts {
+    display: inline-block;
+    vertical-align: top
+  }
+
+  .cv-main {
+    padding-right: 0
+  }
+}
+
+.job {
+  margin-bottom: 1.9em;
+  page-break-inside: avoid
+}
+
+  .job-date {
+    color: #999;
+    font-size: 12px
+  }
+
+  .job-company {
+    font-weight: bold;
+    font-size: 14px
+  }
+
+  .job-desc ul {
+    margin-bottom: 5px
+  }
+
+.site-footer {
+  margin-bottom: 20px
+}
+
+@media print {
+  body {
+    font-size: 11px
+  }
+
+  h1 {
+    font-size: 18px
+  }
+
+  h2 {
+    font-size: 16px
+  }
+
+  h3 {
+    font-size: 14px
+  }
+
+  .site-footer, .cv-langs {
+    display: none
+  }
+
+  .layout {
+    max-width: inherit;
+    padding: 0
+  }
+}

@@ -1,0 +1,141 @@
+title: Алексей Стратан, frontend разработчик
+about:
+  header: О себе
+  text: Ответственный, инициативный, коммуникабельный. В меру перфекционист. Стремлюсь участвовать в полезных и красивых проектах, работать с профессионалами. Люблю продуманные интерфейсы, хороший код и интересные задачи.
+
+skills-header: Навыки и умения
+skills:
+  - JavaScript (ES5, ES6+, TypeScript)
+  - Vue.js, Angular (+ ngrx, RxJs), React (+ MobX, Redux), AngularJS, Backbone.js, jQuery
+  - SPA, PWA
+  - Git, Docker
+  - Webpack, Gulp
+  - Unix shell
+  - HTML, CSS (SCSS, Less, PostCSS). Sketch, Photoshop, Zeplin
+  - TDD, BDD. Karma, Mocha/Chai, Jest
+  - Node.js, Ruby (RoR), Python (Django), PHP (Yii, Symphony, Wordpress)
+  - Postgres, MySQL
+  - English advanced
+
+jobs-header: Опыт работы
+jobs:
+  - date: Июль 2018 — Август 2018
+    company: Kaspersky Lab, проект privacyaudit.me
+    position: Fullstack Developer
+    desc:
+      - >
+        Поддержка, развитие и оптимизация фронтенда в классическом многостраничном веб-приложении на Symfony
+        с большим кол-вом легаси на Twig, Backbone.js, jQuery, Bootstrap и тп
+      - >
+        Постепенное переписывание проекта на Vue.js + TypeScript.
+        Как в виде компонентов, встраиваемых в старый код, так и отдельных SPA
+      - Поддержка других проектов на React и React + Redux, эксперименты с React + MobX
+    stack: Vue.js + TypeScript, Backbone.js, jQuery, Webpack, Gulp, React, MobX, Redux, Charts.js
+    leave: Компания лишилась инвестиций и прекратила своя существование
+
+  - date: Июнь 2017 - Июнь 2018
+    company: DCA (Data-Centric Alliance), компания про бигдату и rtb рекламу
+    position: Senior Front-end Developer
+    desc:
+      - >
+        Поддержка, развитие и оптимизация фронтенда в классическом многостраничном веб-приложении на Symfony
+        с большим кол-вом легаси на Twig, Backbone.js, jQuery, Bootstrap и тп
+      - >
+        Постепенное переписывание проекта на Vue.js + TypeScript.
+        Как в виде компонентов, встраиваемых в старый код, так и отдельных SPA
+      - Поддержка других проектов на React и React + Redux, эксперименты с React + MobX
+    stack: Vue.js + TypeScript, Backbone.js, jQuery, Webpack, Gulp, React, MobX, Redux, Charts.js
+    leave: Компания лишилась инвестиций и прекратила своя существование
+
+  - date: Апрель 2016 - Май 2017
+    company: <a href="http://tillhub.de">Tillhub GmbH</a>
+    position: JS developer
+    desc:
+    - Немецкая компания, удаленная работа, общение практически полностью на английском языке
+    - Разработка веб-приложения на Angular 2+ с поддержкой оффлайн-режима
+    - >
+      Сделал <a href="https://dashboard.tillhub.de/invoice/index-en.html">редактор шаблонов</a> документов
+      (в том числе дизайн, архитектуру, идеи функционала)
+    - Сделал REST API на Node.js (схема в Swagger, архитектура, авторизация, БД, тесты)
+    - Сделал на Angular 2 приложение для экспорта данных из форматов .cvs и .xls во внутренний формат
+    - Поддержка сайта tillhub.de (Wordpress)
+    stack: TypeScript, Angular 2, RxJs, ngrx, SCSS, IndexedDB, Service Workers, Webpack, Gulp, jQuery, PapaParse, Sketch, Node.js, Express, Knex, Swagger, Mocha, Postgres, Wordpress + PHP
+
+  - date: Декабрь 2015 - Февраль 2016
+    company: <a href="http://badoo.com">Badoo</a>
+    position: HTML developer
+    desc:
+    - Поддержка сайтов badoo.com и corp.badoo.com в плане верстки
+    - Получил опыт работы в большой, хорошо организованной и устоявшейся компании
+    stack: HTML, CSS, JS, SVG, Sketch
+
+  - date: Июнь 2015 - Ноябрь 2015
+    company: Delivia.ru, стартап в сфере логистики
+    position: Разработчик интерфейсов
+    desc:
+    - Поддерживал и развивал SPA-приложение
+    - Проектировал интерфейсы, создавал макеты и прототипы
+    - Сделал виджет для встраивания на другие сайты
+    stack: Git, AngularJS, ES6 + Babel, Gulp, Bootstrap, Less, Lodash, d3.js, YandexMaps, jQuery
+
+  - date: Октябрь 2014 - Май 2015
+    company: Веб-студия CreativeCraft
+    position: Веб-технолог
+    desc:
+    - Делал презентационные лендинги
+    - Делал интернет-магазины на OpenCart
+    - Администрировал linux-сервер
+    stack: Git, Sass, jQuery, БЭМ, Ruby On Rails, PHP
+
+  - date: Ноябрь 2013 - сентябрь 2014
+    company: VRM Technology
+    position: JS developer
+    desc:
+    - Ирландская компания, общение частично на английском языке
+    - Разрабатывал мобильное приложение на веб-технологиях
+    - Разработка велась по методологии TDD
+    stack: Git, AngularJS, PhoneGap, CofeeScript, Karma, LESS, TDD
+
+  - date: Апрель 2012 - Октябрь 2013
+    company: Связной Ц.Р., проект yopolis.ru
+    position: Веб-технолог
+    desc:
+      - Разрабатывал фронтенд в большом проекте и в большой команде
+    stack: Git, HTML, Sass, JS, jQuery, Backbone.js, Yii, PHP
+
+  - date: Февраль 2011 - Март 2012
+    company: Соцсеть vinteresah.ru
+    position: HTML-верстальщик
+    desc:
+      - Верстка, JS, интеграция верстки с бэкендом
+    stack: SVN, Git, HTML, CSS, JS, jQuery, PHP, LiveStreet, Smarty
+
+  - date: Январь 2010 - декабрь 2010
+    company: Фриланс
+    position: Веб-разработчик
+    desc:
+    - Верстка и сборка сайтов на разных CMS
+    - Фронтенд в django-сайтах <a href='http://sgtour.ru'>sgtour.ru</a> и 555auto.ru
+    stack: SVN, Git,  HTML, CSS, JS, jQuery, Python + Django, PHP, Wordpress, Drupal, 1t.cms
+
+  - date: Июнь 2007 - Декабрь 2009
+    company: Веб-студия tercio.ru (1t.ru, itla.ru)
+    position: HTML-верстальщик
+    desc:
+    - Сделал множество сайтов (верстка + интеграция с cms)
+    - Активно участвовал в разработке студийной cms (идеи + верстка)
+    - Руководил небольшим отделом верстки
+    - Успешно работал в режиме сильной многозадачности
+    stack: SVN, HTML, CSS, jQuery, 1t.cms
+
+  - date: Июль 2006 - Май 2007
+    company: Рекламное агентство "Реклама успеха"
+    position: Сисадмин, веб-разработчик
+    desc:
+    - Администрировал локальную сеть
+    - Написал на MS Access CRM-приложение
+    - Cделал несколько сайтов на джумле
+
+  - date: Сентябрь 2005 - Декабрь 2006
+    company: МГТУ им. Баумана, факультет Энергомашиностроения, кафедра Экологии (Э-9)
+    position: студент

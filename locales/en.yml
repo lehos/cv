@@ -1,0 +1,138 @@
+title: Alexey Stratan, frontend developer
+about:
+  header: About me
+  text: Experienced frontend developer and JS programmer.
+    Communicable, responsible.
+    My goal is to make useful and beautiful projects in professional teams.
+    I love clear code, interesting tasks and clever interfaces.
+
+skills-header: Skills
+skills:
+  - JavaScript (ES5, ES6+, TypeScript)
+  - Vue.js, Angular (+ ngrx, RxJs), React (+ MobX, Redux), AngularJS, Backbone.js, jQuery
+  - SPA, PWA
+  - Git, Docker
+  - Webpack, Gulp
+  - Unix shell
+  - HTML, CSS (SCSS, PostCSS). Sketch.app, Photoshop, Figma
+  - TDD, BDD. Karma, Mocha/Chai
+  - Node.js, Ruby (RoR), Python (Django), PHP (Yii, Symphony, Wordpress)
+  - Postgres, MySQL
+  - English advanced
+
+jobs-header: Work experience
+jobs:
+  - date: Sep 2018 - now
+    company: Cometrica (Megafon) cometrica.ru
+    position: Senio Frontend Developer
+    desc:
+      - Developing big complex SPA with SSR on React.js (Next.js)
+    tech: React.js, Next.js, TypeScript, Unstated, Styled Components (emotion), Zeplin, Prettier
+
+  - date: Jul 2018 - Aug 2018
+    company: PrivacyAudit.me, Kaspersky Lab buisness incubator
+    position: Fullstack Developer
+    desc:
+      - Developed SPA on Vue.js + TypeScript from scratch
+      - Developed API on Django + Django REST Framework
+    tech: Vue.js + TypeScript, Webpack, Python, Django, Docker
+
+  - date: Jun 2017 - Jun 2018
+    company: DCA (Data-Centric Alliance)
+    position: Senior Front-end Developer
+    desc:
+      - >
+        Maintained, frontend in classic multipage web-application with much legacy
+        on Twig, Backbone.js, jQuery, Bootstrap
+      - Progressively refactored frontend part to SPA on Vue.js + TypeScript.
+      - Mantained some projets on React и React + Redux, experiments with React + MobX
+    tech: Vue.js + Vuex, TypeScript, Backbone.js, JQuery, React + Redux + MobX, Charts.js, Webpack, Gulp, Gitlab
+
+  - date: Apr 2016 - May 2017
+    company: <a href="http://tillhub.de">Tillhub GmbH</a>
+    post: JS developer
+    desc:
+      - German company, remote work, almost all communication in english
+      - Developing web app on Angular with offline mode
+      - >
+        Made <a href="https://dashboard.tillhub.de/invoice/index-en.html">template editor</a> for invoices
+        (including design, architecture and ideas for functionality)
+      - >
+        Made REST API on Node.js (scheme in Swagger, architecture, auth, DB, tests)
+      - Made on Angular app for export data from stansart formats to (.cvs, .xls) to inner data structures
+      - Maintained tillhub.de website (Wordpress)
+    tech: >
+      Git, TypeScript, Angular, RxJs, ngrx, Sass, IndexedDB, Service workers, Webpack, Gulp, jQuery, PapaParse, Sketch,
+      Node.js, Express, Knex, Swagger, Mocha, Postgres, Wordpress + PHP
+
+  - date: Nov 2015 - Feb 2016
+    company: <a href="http://badoo.com">Badoo</a>
+    post: HTML developer
+    desc:
+      - Maintained badoo.com and corp.badoo.com
+      - Got experience in a large, well-organized and well-established company
+    tech: Git, HTML, CSS, JS, PHP, SVG, Sketch
+
+  - date: Jun 2015 - Nov 2015
+    company: <a href="http://delivia.ru">Delivia.ru</a>, logistics start-up
+    post: Interface developer
+    desc:
+      - Maintained and developed SPA-application
+      - Prototyping, UI/UX design
+      - Made a <a href="https://widgets.delivia.ru/pickup/">widget</a> to embed in other sites
+    tech: Git, AngularJS, ES6 + Babel, Gulp, Bootstrap, Less, Lodash, d3.js, YandexMaps, JQuery
+
+  - date: Oct 2014 - May 2015
+    company: Web studio CreativeCraft
+    post: Frontend developer
+    desc:
+      - Created landings (frontend and backend on RoR)
+      - Created e-shops on OpenCart
+      - Linux server administration
+    tech: Git, Sass, JQuery, БЭМ, Ruby On Rails, PHP
+
+  - date: Nov 2013 - Sep 2014
+    company: <a href="http://www.vrmtech.co.uk/">VRM Technology</a>
+    post: JS developer
+    desc:
+      - Irish company, communication was partly in english
+      - Developed mobile app using web technologies
+      - Development process was based on TDD methodology
+    tech: Git, AngularJS, PhoneGap, CofeeScript, Karma, LESS, TDD
+
+  - date: Apr 2012 - Oct 2013
+    company: Svyaznoy C.R., project <a href="http://yopolis.ru">yopolis.ru</a>
+    post: Frontend developer
+    desc:
+      - Developed frontend on big project
+      - Got experience in big team of professionals
+    tech: Git, Sass, JS, JQuery, Backbone.js, Yii, PHP
+
+  - date: Feb 2011 - Mar 2012
+    company: Vinteresah.ru
+    post: Frontend developer
+    desc:
+      - HTML, JS, integrating with PHP serverside.
+    tech: SVN, Git, HTML, CSS, JS, jQuery, PHP, LiveStreet, Smarty
+
+  - date: Jan 2010 - Dec 2010
+    company: Freelance
+    post: Web developer
+    desc:
+      - Created sites on different CMS
+      - Front-end in django-powered sites <a href='http://sgtour.ru'>sgtour.ru</a> and 555auto.ru
+    tech: SVN, Git,  HTML, CSS, JS, JQuery, python + Django, PHP, Wordpress, Drupal, 1t.cms
+
+  - date: Jun 2007 - Dec 2009
+    company: Web studio tercio.ru (1t.ru)
+    post: HTML developer
+    desc:
+      - Developed sites on 1t.cms (frontend + integration with CMS)
+      - Developed 1t.cms (ideas and frontend)
+      - Managed small fronend department
+      - Sucessfuly worked in multi-task environment
+    tech: SVN, HTML, CSS, JQuery, 1t.cms, .NET
+
+  - date: Sen 2005 - Dec 2006
+    company: Bauman Moscow State University
+    post: student
