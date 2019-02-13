@@ -1,3 +1,9 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/cv/'
+  }
+} : {}
+
 export default {
   head: {
     title: 'CV Alexey Stratan',
@@ -20,5 +26,6 @@ export default {
   },
   css: [
     '@/assets/main.css'
-  ]
+  ],
+  ...routerBase
 }

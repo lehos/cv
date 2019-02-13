@@ -6,16 +6,15 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "build": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate"
   },
   "dependencies": {
     "nuxt": "2.4.3",
     "vue-i18n": "8.8.0"
   },
   "devDependencies": {
+    "cross-env": "^5.2.0",
     "json-loader": "0.5.7",
     "yaml-loader": "0.5.0"
   }
