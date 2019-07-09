@@ -58,8 +58,8 @@ export default {
       <ul class="job-desc">
         <li v-for="(desc, index) in job.desc" :key="`desc${index}`" v-html="desc"></li>
       </ul>
-      <div class="job-stack">
-        {{job.stack}}
+      <div class="job-tech">
+        {{job.tech}}
       </div>
     </div>
   </div>

@@ -54,7 +54,7 @@ nav {
   margin-left: 20px
 }
 
-  a.nuxt-link-active {
+  a.nuxt-link-exact-active {
     text-decoration: none;
     color: #333;
   }
@@ -132,6 +132,10 @@ nav {
 
   .job-desc ul {
     margin-bottom: 5px
+  }
+
+  .job-tech {
+    margin: 10px 0;
   }
 
 .site-footer {

@@ -1,9 +1,3 @@
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/cv/'
-  }
-} : {}
-
 export default {
   head: {
     title: 'CV Alexey Stratan',
@@ -17,7 +11,8 @@ export default {
   },
   loading: { color: '#3B8070' },
   router: {
-    middleware: 'i18n'
+    middleware: 'i18n',
+    base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/cv/' : '/'
   },
   plugins: ['~/plugins/i18n.js'],
   generate: {
@@ -27,5 +22,4 @@ export default {
   css: [
     '@/assets/main.css'
   ],
-  ...routerBase
 }

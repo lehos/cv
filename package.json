@@ -10,11 +10,12 @@
     "build": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate"
   },
   "dependencies": {
-    "nuxt": "2.4.3",
+    "nuxt": "2.8.1",
+    "nuxt-i18n": "5.12.7",
     "vue-i18n": "8.8.0"
   },
   "devDependencies": {
-    "cross-env": "^5.2.0",
+    "cross-env": "5.2.0",
     "json-loader": "0.5.7",
     "yaml-loader": "0.5.0"
   }
