@@ -5,20 +5,31 @@ about:
 
 skills-header: Навыки и умения
 skills:
-  - JavaScript (ES5, ES6+, TypeScript)
-  - Vue.js, Angular (+ ngrx, RxJs), React (+ MobX, Redux), AngularJS, Backbone.js, jQuery
-  - SPA, PWA
-  - Git, Docker
+  - JavaScript, TypeScript
+  - Vue.js, React (+ MobX, Redux, Next.js), Angular
+  - Git, Docker, Gitlab CI/CD
   - Webpack, Gulp
   - Unix shell
-  - HTML, CSS (SCSS, Less, PostCSS). Sketch, Photoshop, Zeplin
-  - TDD, BDD. Karma, Mocha/Chai, Jest
-  - Node.js, Ruby (RoR), Python (Django), PHP (Yii, Symphony, Wordpress)
+  - SPA, PWA, SSR
+  - HTML, CSS. Sketch.app, Photoshop, Figma, Zeplin
+  - TDD, BDD. Jest, Mocha
+  - Middle-level experiense with backends (Node.js, RoR, Django, Yii, Symphony, Wordpress)
   - Postgres, MySQL
   - English advanced
 
 jobs-header: Опыт работы
 jobs:
+  - date: Сентябрь 2018 - текущий момент
+    company: Кометрика (cometrica.ru, холдинг USM)
+    position: Senior Frontend Developer
+    desc:
+      - Работа в большой фронтент-команде (6-9 человек) с хорошими процессами (код ревью, тесты, линтеры, CI)
+      - Разработка большого сложного проекта на Next.js
+      - Разработка дизайн-системы (StoryBook, Docz)
+      - Разработка нескольких SPA (без SSR) на React
+      - Поддержка нескольких старых проектов на AngularJS
+    tech: React.js, Next.js, TypeScript, Webpack, Unstated, Zustand, Styled Components (emotion), StoryBook, Jest, Zeplin, Prettier, Eslint, Husky, Gitlab, Teamcity
+
   - date: Июль 2018 — Август 2018
     company: Kaspersky Lab, проект privacyaudit.me
     position: Fullstack Developer

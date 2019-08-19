@@ -8,13 +8,13 @@ about:
 
 skills-header: Skills
 skills:
-  - HTML, CSS. Sketch.app, Photoshop, Figma, Zeplin
   - JavaScript, TypeScript
-  - Vue.js, React (+ MobX, Redux, hooks, Next.js)
+  - Vue.js, React (+ MobX, Redux, Next.js), Angular
   - SPA, PWA, SSR
   - Git, Docker, Gitlab CI/CD
   - Webpack, Gulp
   - Unix shell
+  - HTML, CSS. Sketch.app, Photoshop, Figma, Zeplin
   - TDD, BDD. Jest, Mocha
   - Middle-level experiense with backends (Node.js, RoR, Django, Yii, Symphony, Wordpress)
   - Postgres, MySQL
@@ -29,7 +29,7 @@ jobs:
       - Working in frontend team (6-9 people) with good code quality process (code review, tests, linters, CI)
       - Developing big complex project using Next.js
       - Developing design system (StoryBook, Docz)
-      - Developing some pure SPA (no SSR) with React
+      - Developing several pure SPA (no SSR) with React
       - Mantainig some legacy projects on AngularJS
     tech: React.js, Next.js, TypeScript, Webpack, Unstated, Zustand, Styled Components (emotion), StoryBook, Jest, Zeplin, Prettier, Eslint, Husky, Gitlab, Teamcity
 
