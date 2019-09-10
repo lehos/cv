@@ -1,21 +1,20 @@
 title: Алексей Стратан, frontend разработчик
 about:
   header: О себе
-  text: Ответственный, инициативный, коммуникабельный. В меру перфекционист. Стремлюсь участвовать в полезных и красивых проектах, работать с профессионалами. Люблю продуманные интерфейсы, хороший код и интересные задачи.
+  text: Ответственный, инициативный, коммуникабельный. В меру перфекционист. Стремлюсь участвовать в полезных и красивых проектах, работать с профессионалами. Люблю продуманные интерфейсы, интересные задачи и чистый код.
 
 skills-header: Навыки и умения
 skills:
   - JavaScript, TypeScript
   - Vue.js, React (+ MobX, Redux, Next.js), Angular
-  - Git, Docker, Gitlab CI/CD
+  - Git, Docker, Gitlab CI/CD, unix shell
   - Webpack, Gulp
-  - Unix shell
   - SPA, PWA, SSR
   - HTML, CSS. Sketch.app, Photoshop, Figma, Zeplin
   - TDD, BDD. Jest, Mocha
-  - Middle-level experiense with backends (Node.js, RoR, Django, Yii, Symphony, Wordpress)
+  - Node.js, RoR, Django, Yii, Symphony, Wordpress - middle-level
   - Postgres, MySQL
-  - English advanced
+  - Английский свободный
 
 jobs-header: Опыт работы
 jobs:
@@ -23,29 +22,25 @@ jobs:
     company: Кометрика (cometrica.ru, холдинг USM)
     position: Senior Frontend Developer
     desc:
-      - Работа в большой фронтент-команде (6-9 человек) с хорошими процессами (код ревью, тесты, линтеры, CI)
+      - Большая команда фронтендеров (5-9 человек) с хорошими процессами (код ревью, тесты, линтеры, CI)
       - Разработка большого сложного проекта на Next.js
+      - Разработка нескольких SPA разного уровня сложности на React
       - Разработка дизайн-системы (StoryBook, Docz)
-      - Разработка нескольких SPA (без SSR) на React
       - Поддержка нескольких старых проектов на AngularJS
-    tech: React.js, Next.js, TypeScript, Webpack, Unstated, Zustand, Styled Components (emotion), StoryBook, Jest, Zeplin, Prettier, Eslint, Husky, Gitlab, Teamcity
+    tech: React.js, Next.js, TypeScript, Webpack, Unstated, Zustand, Emotion, StoryBook, Jest, Zeplin
 
   - date: Июль 2018 — Август 2018
     company: Kaspersky Lab, проект privacyaudit.me
     position: Fullstack Developer
     desc:
-      - >
-        Поддержка, развитие и оптимизация фронтенда в классическом многостраничном веб-приложении на Symfony
-        с большим кол-вом легаси на Twig, Backbone.js, jQuery, Bootstrap и тп
-      - >
-        Постепенное переписывание проекта на Vue.js + TypeScript.
-        Как в виде компонентов, встраиваемых в старый код, так и отдельных SPA
-      - Поддержка других проектов на React и React + Redux, эксперименты с React + MobX
+      - Разработка SPA на Vue.js + TypeScript
+      - Разработка API на Django + Django REST Framework
+      - Работа в очень интенсивном режиме, mvp за 6 недель
     stack: Vue.js + TypeScript, Backbone.js, jQuery, Webpack, Gulp, React, MobX, Redux, Charts.js
-    leave: Компания лишилась инвестиций и прекратила своя существование
+    leave: Неудовлетворенность проектом и некоторые особенности компании
 
   - date: Июнь 2017 - Июнь 2018
-    company: DCA (Data-Centric Alliance), компания про бигдату и rtb рекламу
+    company: DCA (Data-Centric Alliance)
     position: Senior Front-end Developer
     desc:
       - >
@@ -54,31 +49,33 @@ jobs:
       - >
         Постепенное переписывание проекта на Vue.js + TypeScript.
         Как в виде компонентов, встраиваемых в старый код, так и отдельных SPA
-      - Поддержка других проектов на React и React + Redux, эксперименты с React + MobX
+      - Поддержка других проектов на React (Redux и MobX)
     stack: Vue.js + TypeScript, Backbone.js, jQuery, Webpack, Gulp, React, MobX, Redux, Charts.js
-    leave: Компания лишилась инвестиций и прекратила своя существование
+    leave: Компания лишилась инвестиций и закрылась
 
   - date: Апрель 2016 - Май 2017
-    company: <a href="http://tillhub.de">Tillhub GmbH</a>
+    company: Tillhub GmbH
     position: JS developer
     desc:
     - Немецкая компания, удаленная работа, общение практически полностью на английском языке
-    - Разработка веб-приложения на Angular 2+ с поддержкой оффлайн-режима
+    - Разработка веб-приложения на Angular 2 с поддержкой оффлайн-режима
     - >
       Сделал <a href="https://dashboard.tillhub.de/invoice/index-en.html">редактор шаблонов</a> документов
       (в том числе дизайн, архитектуру, идеи функционала)
     - Сделал REST API на Node.js (схема в Swagger, архитектура, авторизация, БД, тесты)
-    - Сделал на Angular 2 приложение для экспорта данных из форматов .cvs и .xls во внутренний формат
+    - Сделал на Angular 2 приложение для настраиваемого экспорта данных из форматов .cvs и .xls в базу данных
     - Поддержка сайта tillhub.de (Wordpress)
     stack: TypeScript, Angular 2, RxJs, ngrx, SCSS, IndexedDB, Service Workers, Webpack, Gulp, jQuery, PapaParse, Sketch, Node.js, Express, Knex, Swagger, Mocha, Postgres, Wordpress + PHP
+    leave: Трудные и некомфортные отношения с новопришедшим коллегой из Берлинского офиса
 
   - date: Декабрь 2015 - Февраль 2016
-    company: <a href="http://badoo.com">Badoo</a>
+    company: Badoo
     position: HTML developer
     desc:
     - Поддержка сайтов badoo.com и corp.badoo.com в плане верстки
     - Получил опыт работы в большой, хорошо организованной и устоявшейся компании
     stack: HTML, CSS, JS, SVG, Sketch
+    leave: Взаимно друг другу не понравились и не прошли испытательный срок
 
   - date: Июнь 2015 - Ноябрь 2015
     company: Delivia.ru, стартап в сфере логистики
@@ -86,26 +83,20 @@ jobs:
     desc:
     - Поддерживал и развивал SPA-приложение
     - Проектировал интерфейсы, создавал макеты и прототипы
-    - Сделал виджет для встраивания на другие сайты
+    - Сделал виджет на базе яндекс.карт для встраивания на другие сайты
     stack: Git, AngularJS, ES6 + Babel, Gulp, Bootstrap, Less, Lodash, d3.js, YandexMaps, jQuery
+    leave: Переход в Баду
 
-  - date: Октябрь 2014 - Май 2015
-    company: Веб-студия CreativeCraft
-    position: Веб-технолог
-    desc:
-    - Делал презентационные лендинги
-    - Делал интернет-магазины на OpenCart
-    - Администрировал linux-сервер
-    stack: Git, Sass, jQuery, БЭМ, Ruby On Rails, PHP
-
-  - date: Ноябрь 2013 - сентябрь 2014
+  - date: Ноябрь 2013 - Декабрь 2014
     company: VRM Technology
     position: JS developer
     desc:
     - Ирландская компания, общение частично на английском языке
     - Разрабатывал мобильное приложение на веб-технологиях
+    - Разрабатывал админку на RoR
     - Разработка велась по методологии TDD
-    stack: Git, AngularJS, PhoneGap, CofeeScript, Karma, LESS, TDD
+    stack: Git, AngularJS, PhoneGap, CofeeScript, Karma, LESS, TDD, Ruby On Rails
+    leave: Семейные обстоятельства
 
   - date: Апрель 2012 - Октябрь 2013
     company: Связной Ц.Р., проект yopolis.ru
@@ -113,6 +104,7 @@ jobs:
     desc:
       - Разрабатывал фронтенд в большом проекте и в большой команде
     stack: Git, HTML, Sass, JS, jQuery, Backbone.js, Yii, PHP
+    leave: Разочарование в проекте
 
   - date: Февраль 2011 - Март 2012
     company: Соцсеть vinteresah.ru
@@ -120,24 +112,19 @@ jobs:
     desc:
       - Верстка, JS, интеграция верстки с бэкендом
     stack: SVN, Git, HTML, CSS, JS, jQuery, PHP, LiveStreet, Smarty
+    leave: Переход в Связной Ц.Р.
 
-  - date: Январь 2010 - декабрь 2010
-    company: Фриланс
-    position: Веб-разработчик
-    desc:
-    - Верстка и сборка сайтов на разных CMS
-    - Фронтенд в django-сайтах <a href='http://sgtour.ru'>sgtour.ru</a> и 555auto.ru
-    stack: SVN, Git,  HTML, CSS, JS, jQuery, Python + Django, PHP, Wordpress, Drupal, 1t.cms
-
-  - date: Июнь 2007 - Декабрь 2009
+  - date: Июнь 2007 - Декабрь 2010
     company: Веб-студия tercio.ru (1t.ru, itla.ru)
-    position: HTML-верстальщик
+    position: Веб-разработчик
     desc:
     - Сделал множество сайтов (верстка + интеграция с cms)
     - Активно участвовал в разработке студийной cms (идеи + верстка)
     - Руководил небольшим отделом верстки
     - Успешно работал в режиме сильной многозадачности
-    stack: SVN, HTML, CSS, jQuery, 1t.cms
+    - Сделал фронтенд в нескольких проектах на django
+    stack: SVN, Git,  HTML, CSS, JS, jQuery, Python + Django, PHP, Wordpress, Drupal, 1t.cms
+    leave: Компания закрылась
 
   - date: Июль 2006 - Май 2007
     company: Рекламное агентство "Реклама успеха"
@@ -146,6 +133,7 @@ jobs:
     - Администрировал локальную сеть
     - Написал на MS Access CRM-приложение
     - Cделал несколько сайтов на джумле
+    - leave: Компания закрылась
 
   - date: Сентябрь 2005 - Декабрь 2006
     company: МГТУ им. Баумана, факультет Энергомашиностроения, кафедра Экологии (Э-9)

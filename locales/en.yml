@@ -26,12 +26,12 @@ jobs:
     company: Cometrica (cometrica.ru, USM holding)
     position: Senior Frontend Developer
     desc:
-      - Working in frontend team (6-9 people) with good code quality process (code review, tests, linters, CI)
+      - Working in frontend team (5-9 people) with good code quality process (code review, tests, linters, CI)
       - Developing big complex project using Next.js
       - Developing design system (StoryBook, Docz)
       - Developing several pure SPA (no SSR) with React
       - Mantainig some legacy projects on AngularJS
-    tech: React.js, Next.js, TypeScript, Webpack, Unstated, Zustand, Styled Components (emotion), StoryBook, Jest, Zeplin, Prettier, Eslint, Husky, Gitlab, Teamcity
+    tech: React.js, Next.js, TypeScript, Webpack, Unstated, Zustand, Styled Components (emotion), StoryBook, Jest, Zeplin, Gitlab, Teamcity
 
   - date: Jul 2018 - Aug 2018
     company: PrivacyAudit.me, Kaspersky Lab business incubator
@@ -53,7 +53,7 @@ jobs:
     tech: Vue.js + Vuex, TypeScript, Backbone.js, JQuery, React + Redux + MobX, Charts.js, Webpack, Gulp, Gitlab
 
   - date: Apr 2016 - May 2017
-    company: <a href="http://tillhub.de">Tillhub GmbH</a>
+    company: Tillhub GmbH
     position: JS developer
     desc:
       - German company, remote work, almost all communication in english
@@ -69,8 +69,8 @@ jobs:
       Git, TypeScript, Angular, RxJs, ngrx, Sass, IndexedDB, Service workers, Webpack, Gulp, jQuery, PapaParse, Sketch,
       Node.js, Express, Knex, Swagger, Mocha, Postgres, Wordpress + PHP
 
-  - date: Nov 2015 - Feb 2016
-    company: <a href="http://badoo.com">Badoo</a>
+  - date: Dec 2015 - Feb 2016
+    company: Badoo
     position: HTML developer
     desc:
       - Maintained badoo.com and corp.badoo.com
@@ -78,7 +78,7 @@ jobs:
     tech: Git, HTML, CSS, JS, PHP, SVG, Sketch
 
   - date: Jun 2015 - Nov 2015
-    company: <a href="http://delivia.ru">Delivia.ru</a>, logistics start-up
+    company: Delivia.ru, logistics start-up
     position: Interface developer
     desc:
       - Maintained and developed SPA-application
@@ -86,17 +86,8 @@ jobs:
       - Made a <a href="https://widgets.delivia.ru/pickup/">widget</a> to embed in other sites
     tech: Git, AngularJS, ES6 + Babel, Gulp, Bootstrap, Less, Lodash, d3.js, YandexMaps, JQuery
 
-  - date: Oct 2014 - May 2015
-    company: Web studio CreativeCraft
-    position: Frontend developer
-    desc:
-      - Created landings (frontend and backend on RoR)
-      - Created e-shops on OpenCart
-      - Linux server administration
-    tech: Git, Sass, JQuery, БЭМ, Ruby On Rails, PHP
-
-  - date: Nov 2013 - Sep 2014
-    company: <a href="http://www.vrmtech.co.uk/">VRM Technology</a>
+  - date: Nov 2013 - Dec 2014
+    company: VRM Technology
     position: JS developer
     desc:
       - Irish company, communication was partly in english
@@ -105,7 +96,7 @@ jobs:
     tech: Git, AngularJS, PhoneGap, CofeeScript, Karma, LESS, TDD
 
   - date: Apr 2012 - Oct 2013
-    company: Svyaznoy C.R., project <a href="http://yopolis.ru">yopolis.ru</a>
+    company: Svyaznoy C.R., yopolis.ru
     position: Frontend developer
     desc:
       - Developed frontend on big project
@@ -119,21 +110,14 @@ jobs:
       - HTML, JS, integrating with PHP serverside.
     tech: SVN, Git, HTML, CSS, JS, jQuery, PHP, LiveStreet, Smarty
 
-  - date: Jan 2010 - Dec 2010
-    company: Freelance
-    position: Web developer
-    desc:
-      - Created sites on different CMS
-      - Front-end in django-powered sites <a href='http://sgtour.ru'>sgtour.ru</a> and 555auto.ru
-    tech: SVN, Git,  HTML, CSS, JS, JQuery, python + Django, PHP, Wordpress, Drupal, 1t.cms
-
-  - date: Jun 2007 - Dec 2009
+  - date: Jun 2007 - Dec 2010
     company: Web studio tercio.ru (1t.ru)
     position: HTML developer
     desc:
       - Developed sites on 1t.cms (frontend + integration with CMS)
       - Developed 1t.cms (ideas and frontend)
       - Managed small fronend department
+      - Made frontend in several django-powered sites
       - Sucessfuly worked in multi-task environment
     tech: SVN, HTML, CSS, JQuery, 1t.cms, .NET
 
