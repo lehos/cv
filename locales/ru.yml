@@ -6,11 +6,11 @@ about:
 skills-header: Навыки и умения
 skills:
   - JavaScript, TypeScript
-  - Vue.js, React (+ MobX, Redux, Next.js), Angular
+  - HTML, CSS, Css-in-JS
+  - React (+ MobX, Redux, Next.js, ReactQuery), Vue.js
   - Git, Docker, Gitlab CI/CD, unix shell
   - Webpack, Gulp
   - SPA, PWA, SSR
-  - HTML, CSS. Sketch.app, Photoshop, Figma, Zeplin
   - TDD, BDD. Jest, Mocha
   - Node.js, RoR, Django, Yii, Symphony, Wordpress - middle-level
   - Postgres, MySQL
@@ -20,14 +20,14 @@ jobs-header: Опыт работы
 jobs:
   - date: Сентябрь 2018 - текущий момент
     company: Кометрика (cometrica.ru, холдинг USM)
-    position: Senior Frontend Developer
+    position: Lead Frontend Developer
     desc:
-      - Большая команда фронтендеров (5-9 человек) с хорошими процессами (код ревью, тесты, линтеры, CI)
-      - Разработка большого сложного проекта на Next.js
-      - Разработка нескольких SPA разного уровня сложности на React
-      - Разработка дизайн-системы (StoryBook, Docz)
-      - Поддержка нескольких старых проектов на AngularJS
-    tech: React.js, Next.js, TypeScript, Webpack, Unstated, Zustand, Emotion, StoryBook, Jest, Zeplin
+      - Большая команда фронтендеров (4-6 человек) с хорошими процессами (код ревью, тесты, линтеры, CI)
+      - Разработка нескольких больших React-приложений
+      - Разработка дизайн-системы (StoryBook)
+      - Поддержка старых проектов на AngularJS
+      - Наствничество стажеров
+    tech: React.js, Next.js, TypeScript, Webpack, Zustand, ReactQuery, Emotion, StoryBook, Jest
 
   - date: Июль 2018 — Август 2018
     company: Kaspersky Lab, проект privacyaudit.me
