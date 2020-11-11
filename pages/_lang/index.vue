@@ -34,7 +34,6 @@ export default {
         <li>
           <span class="cv-contacts__label">socials:</span>
           <a href="https://www.linkedin.com/in/aleksei-stratan-46190674/">linkedin</a>
-          <a href="http://vk.com/fake_lehos">vk</a>
           <a href="https://www.facebook.com/true.lehos">fb</a>
         </li>
       </ul>
