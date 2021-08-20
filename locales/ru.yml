@@ -9,11 +9,11 @@ skills:
   - HTML, CSS, Css-in-JS
   - React (+ MobX, Redux, Next.js, ReactQuery), Vue.js
   - Git, Docker, Gitlab CI/CD, unix shell
-  - Webpack, Gulp
+  - Vite, Webpack, Gulp
   - SPA, PWA, SSR
   - TDD, BDD. Jest, Mocha
   - Node.js, RoR, Django, Yii, Symphony, Wordpress - middle-level
-  - Postgres, MySQL
+  - Postgres, MySQL, Mongo, Firebase
   - Английский свободный
 
 jobs-header: Опыт работы
@@ -23,11 +23,12 @@ jobs:
     position: Lead Frontend Developer
     desc:
       - Большая команда фронтендеров (4-6 человек) с хорошими процессами (код ревью, тесты, линтеры, CI)
-      - Разработка нескольких больших React-приложений
+      - Разработка нескольких больших React-приложений (в основном админки - таблицы, формы, графики, карты и тп)
       - Разработка дизайн-системы (StoryBook)
       - Поддержка старых проектов на AngularJS
+      - Прошел корпоративный курс по наставничеству и лидерству "Школа лидеров"
       - Наствничество стажеров
-    tech: React.js, Next.js, TypeScript, Webpack, Zustand, ReactQuery, Emotion, StoryBook, Jest
+    tech: React.js, Next.js, TypeScript, Webpack, ReactQuery, Emotion, StoryBook, Jest
 
   - date: Июль 2018 — Август 2018
     company: Kaspersky Lab, проект privacyaudit.me

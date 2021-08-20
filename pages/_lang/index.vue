@@ -23,8 +23,8 @@ export default {
         </li>
 
         <li>
-          <span class="cv-contacts__label">skype:</span>
-          <a href="skype:alexey-stratan?chat">alexey-stratan</a>
+          <span class="cv-contacts__label">tlgrm:</span>
+          <a href="https://t.me/Lehos">Lehos</a>
         </li>
 
         <li>
